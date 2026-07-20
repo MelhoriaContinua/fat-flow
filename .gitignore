@@ -6,7 +6,8 @@
 configs.txt
 
 # === Pasta de dados (planilhas e .env* ficam fora do repo) ===
-data/
+data/*
+!data/.gitkeep
 
 # === Ambientes / build ===
 venv
