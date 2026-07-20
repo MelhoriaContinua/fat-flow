@@ -1,0 +1,29 @@
+# === Credenciais / dados sensíveis (NUNCA versionar) ===
+.env
+.env.*
+!.env.example
+.env_backup
+configs.txt
+
+# === Pasta de dados (planilhas e .env* ficam fora do repo) ===
+data/
+
+# === Ambientes / build ===
+venv
+build
+dist
+backup
+__pycache__/
+*.pyc
+
+# === Executáveis e pacotes ===
+FatFlow.exe
+*.zip
+
+# === Saídas geradas em runtime ===
+outputs/
+
+# === OOBJ - token de acesso e notas baixadas ===
+OOBJ REQUEST/.token_cache.json
+OOBJ REQUEST/outputs/
+OOBJ REQUEST/

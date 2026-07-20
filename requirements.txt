@@ -1,0 +1,11 @@
+pandas
+requests
+lxml
+openpyxl
+ttkbootstrap
+Pillow
+pyinstaller
+webdriver_manager
+selenium
+python-dotenv
+cryptography
